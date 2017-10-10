@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="kd_weather"/>
+    <version value="1"/>
+    <list>  //添加到映射列表中
+        <mapping class="com.kd.kuangdangweather.db.Province"/>
+        <mapping class="com.kd.kuangdangweather.db.City"/>
+        <mapping class="com.kd.kuangdangweather.db.County"/>
+    </list>
+
+
+</litepal>
